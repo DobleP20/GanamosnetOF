@@ -7,6 +7,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Meta Pixel -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '329034990001440');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=329034990001440&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- Fin Meta Pixel -->
 
   <style>
     :root{
@@ -590,7 +608,8 @@
 
     <a class="btn btn-green hero-cta"
       href="https://wa.me/5491127425140?text=Hola%2C%20quiero%20mi%20usuario%20y%20mi%20bono%20del%2050%25%20mi%20nombre%20es%3A%20"
-      target="_blank" rel="noopener noreferrer">
+      target="_blank" rel="noopener noreferrer"
+      onclick="fbq('track', 'Lead')">
       <img class="ico-img" src="wpp.png" alt="WhatsApp">
       PEDIR USUARIO POR WHATSAPP
     </a>
@@ -693,7 +712,8 @@
   <div class="sticky">
     <a class="btn btn-green btn-two"
        href="https://wa.me/5491127425140?text=Hola%2C%20quiero%20mi%20usuario%20y%20mi%20bono%20del%2050%25%20mi%20nombre%20es%3A%20"
-       target="_blank" rel="noopener noreferrer">
+       target="_blank" rel="noopener noreferrer"
+       onclick="fbq('track', 'Lead')">
 
       <span class="btn-main">
         <img class="ico-img" src="wpp.png" alt="WhatsApp">
